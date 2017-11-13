@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-----------------  font  -------------*/
+
+h1 {
+    font-family: 'renner*';
+    color: aliceblue;
+    font-size: 2em;
+}
+
+h2 {
+    font-family: 'renner*';
+    color: aliceblue;
+    font-size: 1.5em;
+}
+
+p {
+    font-family: 'renner*';
+    color: aliceblue;
+    font-size: 1em;
+}
+
+/*----------------  parent  ------------*/
+
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.column_content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/*-----------------  child  -------------*/
+
+.column {
+    flex-basis: 100px;
+    flex-grow: 1;
+    padding: 2vw;
+    width: 100%;
+}
+
+.column_wide {
+    flex-basis: 100px;
+    flex-grow: 2;
+}
+
+.img {
+    flex-basis: 10px;
+    flex-grow: 1;
+}
+
+.txt {
+    flex-basis: 10px;
+    flex-grow: 1;
+}
+
+/*------------------  a1  --------------*/
+
+#a1 {
+    background-color: #89CCE5;
+    padding-bottom: 5vw
+}
+
+
+#a1 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+
+/*------------------  a2  --------------*/
+
+#a2 {
+    background-color: #F4912D;
+    padding-bottom: 5vw
+}
+
+
+#a2 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+/*------------------  a3  --------------*/
+
+#a3 {
+    background-color: #202532;
+    padding-bottom: 5vw
+}
+
+
+#a3 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+#a3 img {
+    width: 100%;
+}
+
+/*------------------  a4  --------------*/
+
+#a4 {
+    background-color: #89CCE5;
+    padding-bottom: 5vw
+}
+
+
+#a4 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+.img img {
+    width: 20vw;
+    border: 3px #F4912D solid;
+}
+
+/*------------------  a5  --------------*/
+
+#a5 {
+    background-color: #202532;
+    padding-bottom: 5vw
+}
+
+
+#a5 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+#a5 img {
+    width: 100%;
+}
+
+/*------------------  a6  --------------*/
+
+#a6 {
+    background-color: #F4912D;
+    padding-bottom: 5vw
+}
+
+
+#a6 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+#a6 img {
+    width: 100%;
+}
+
+/*------------------  a7  --------------*/
+
+#a7 {
+    background-color: #89CCE5;
+    padding-bottom: 5vw
+}
+
+
+#a7 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+/*------------------  a8  --------------*/
+
+#a8 {
+    background-color: #F4912D;
+    padding-bottom: 5vw
+}
+
+
+#a8 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+/*------------------  a9  --------------*/
+
+#a9 {
+    background-color: #202532;
+    padding-bottom: 5vw
+}
+
+
+#a9 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+/*------------------  a10  --------------*/
+
+#a10 {
+    background-color: #89CCE5;
+    padding-bottom: 5vw
+}
+
+
+#a10 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+/*------------------  a11  --------------*/
+
+#a11 {
+    background-color: #F4912D;
+    padding-bottom: 5vw
+}
+
+
+#a11 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+/*------------------  a12  --------------*/
+
+#a12 {
+    background-color: #202532;
+    padding-bottom: 5vw
+}
+
+
+#a12 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
+
+/*------------------  a13  --------------*/
+
+#a13 {
+    background-color: #89CCE5;
+    padding-bottom: 5vw
+}
+
+
+#a13 .column {
+    text-align: center;
+    padding: 2vw 5vw 2vw 5vw;
+}
