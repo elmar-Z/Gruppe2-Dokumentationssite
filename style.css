@@ -302,6 +302,10 @@ a {
     padding: 2vw 5vw 2vw 5vw;
 }
 
+#a12 img {
+    width: 100%;
+}
+
 /*------------------  a13  --------------*/
 
 #a13 {
@@ -337,5 +341,5 @@ a {
     flex-basis: 100px;
     flex-grow: 1;
     padding: 2vw;
-    width: 10%
+    width: 20%
 }
