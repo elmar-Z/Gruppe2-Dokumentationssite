@@ -55,7 +55,7 @@ a {
     flex-basis: 100px;
     flex-grow: 1;
     padding: 2vw;
-    width: 100%;
+    width: 100%
 }
 
 .column_wide {
@@ -331,4 +331,11 @@ a {
 #a14 img {
     border-radius: 50%;
     width: 10vw;
+}
+
+#a14 .column {
+    flex-basis: 100px;
+    flex-grow: 1;
+    padding: 2vw;
+    width: 10%
 }
